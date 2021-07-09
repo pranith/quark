@@ -1,0 +1,8 @@
+Please install all prerequisties to build qemu. Then run setup.sh.
+
+On Debian/Ubuntu based linux distributions, please run
+
+```
+$ sudo apt-get build-dep qemu
+$ ./setup.sh
+```

@@ -1,0 +1,9 @@
+[submodule "qemu"]
+	path = qemu
+	url = https://github.com/qemu/qemu
+[submodule "qpoints"]
+	path = qpoints
+	url = https://github.com/pranith/qpoints
+[submodule "simpoints"]
+	path = simpoints
+	url = https://github.com/gthparch/simpoints
