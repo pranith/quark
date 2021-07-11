@@ -1,4 +1,4 @@
-# queso
+# quark
 
 A QEMU based framework for generating instruction traces on x86, ARM, and
 RISCV architectures.
