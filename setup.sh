@@ -31,3 +31,7 @@ popd
 #unzip artifacts.zip
 #popd
 
+#pushd tests
+#riscv64-linux-gnu-gcc -static -o tests/test tests/test.c
+#popd
+#./run_usermode.sh riscv64 tests/test
