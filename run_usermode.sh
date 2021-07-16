@@ -1,6 +1,6 @@
 #!/bin/bash
 # Usage: ./run.sh <architecture> <benchmark>
-# Supported architectures are x86_64, aarch64, riscv64
+# Supported architectures are x86_64, aarch64, riscv32, riscv64
 
 if [ "$#" -ne 2 ]; then
 	echo "Usage: ./run.sh <architecture> <benchmark>"
