@@ -1,11 +1,11 @@
+#!/bin/bash
+
 git submodule update --init --recursive
 
-pushd qemu
-mkdir relbuild
-pushd relbuild
+mkdir -p qemu/relbuild
+pushd qemu/relbuild/
 ../configure --target-list=aarch64-softmmu,x86_64-softmmu,riscv64-softmmu,aarch64-linux-user,x86_64-linux-user,riscv64-linux-user --enable-plugins --enable-capstone=git
 make -j4
-popd
 popd
 
 pushd qpoints
